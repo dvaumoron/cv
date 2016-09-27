@@ -15,7 +15,8 @@ techSkill :
   - Méthodes : SCRUM, TDD
   - Normes : SAML 2.0 & 1.1
 missions :
-  - organization : Norsys
+  -
+    organization : Norsys
     startDate : 31/03/2014
     endDate : 04/04/2014
     duration : 5 jours
