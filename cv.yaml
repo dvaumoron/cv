@@ -15,17 +15,16 @@ techSkill :
   - Méthodes : SCRUM, TDD
   - Normes : SAML 2.0 & 1.1
 missions :
-  -
-    organization : Norsys
+  - organization : Norsys
     startDate : 31/03/2014
     endDate : 04/04/2014
     duration : 5 jours
     projectSize : 5 personnes
     description : L'application pass in est un portail pour gérer une flotte de passe magnétique et les autorisations associées.
     details :
-      - Mise en place de Web content pour la partie editorial du portail
-      - Intégration de l'agent DACS à Liferay pour l'authentification SAML (hook d'autologin)
-      - Utilisation de liste de donnée dynamique et de custom attribute pour stocker des données métiers et les exploiter dans le portail
+      <p>Mise en place de Web content pour la partie editorial du portail</p>
+      <p>Intégration de l'agent DACS à Liferay pour l'authentification SAML (hook d'autologin)</p>
+      <p>Utilisation de liste de donnée dynamique et de custom attribute pour stocker des données métiers et les exploiter dans le portail</p>
     techEnv : Liferay 6.2, Dictao, SAML, Maven, Spring portlet MVC
 diploma :
   - Janvier 2008 : SCJP Java 5 (90%)
