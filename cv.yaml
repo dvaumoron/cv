@@ -5,15 +5,15 @@ speciality : Expert JEE LIFERAY
 experience : 9 ans
 resume : bla bla
 techSkill :
-  - component : Spring, Struts, GWT, Android, Google Maps Javascript API, Velocity, Hibernate, Dom4J, Terracotta, JUnit, Log4j, Slf4J, Subversion, Maven, Ant, Lucene, Selenium, Fluentlenium, Google Guava, JQuery, jqplot
-  - languages : Java/JEE(JSP, servlet, EJB,...), Go, Scala, Groovy, Python, SQL, HTML, Javascript, JSON, YAML, XML/XSLT, BPMN, C/C++, Lisp, Prolog
-  - products : Eclipse, Intalio BPMS, Intalio Designer, Liferay Portal, Grails, Datastage
-  - sgbd : MySQL, PostgreSQL, Oracle
-  - webServer : Tomcat
-  - applicationServer : JBoss
-  - os : Windows, Linux, MacOS
-  - process : SCRUM, TDD
-  - norms : SAML 2.0 & 1.1
+  - Composants : Spring, Struts, GWT, Android, Google Maps Javascript API, Velocity, Hibernate, Dom4J, Terracotta, JUnit, Log4j, Slf4J, Subversion, Maven, Ant, Lucene, Selenium, Fluentlenium, Google Guava, JQuery, jqplot
+  - Languages : Java/JEE(JSP, servlet, EJB,...), Go, Scala, Groovy, Python, SQL, HTML, Javascript, JSON, YAML, XML/XSLT, BPMN, C/C++, Lisp, Prolog
+  - Produits : Eclipse, Intalio BPMS, Intalio Designer, Liferay Portal, Grails, Datastage
+  - SGBD : MySQL, PostgreSQL, Oracle
+  - Serveur Web : Tomcat
+  - Serveur d'application : JBoss
+  - Systèmes d'exploitation : Windows, Linux, MacOS
+  - Méthodes : SCRUM, TDD
+  - Normes : SAML 2.0 & 1.1
 missions :
   - organization : Norsys
     startDate : 31/03/2014
