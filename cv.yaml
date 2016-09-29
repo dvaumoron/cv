@@ -5,23 +5,37 @@ speciality : Expert JEE LIFERAY
 experience : 9 ans
 resume : bla bla
 techSkill :
-    - Composants : "Spring, Struts, GWT, Android, Google Maps Javascript API, Velocity, Hibernate, Dom4J, Terracotta, JUnit, Log4j, Slf4J, Subversion, Maven, Ant, Lucene, Selenium, Fluentlenium, Google Guava, JQuery, jqplot"
-    - Languages : "Java/JEE(JSP, servlet, EJB,...), Go, Scala, Groovy, Python, SQL, HTML, Javascript, JSON, YAML, XML/XSLT, BPMN, C/C++, Lisp, Prolog"
-    - Produits : "Eclipse, Intalio BPMS, Intalio Designer, Liferay Portal, Grails, Datastage"
-    - SGBD : "MySQL, PostgreSQL, Oracle"
+    - Composants : Spring, Struts, GWT, Android, Google Maps Javascript API, Velocity, Hibernate, Dom4J, Terracotta, JUnit, Log4j, Slf4J, Git, Mercurial, Subversion, Maven, Ant, Lucene, Selenium, Fluentlenium, Google Guava, Angular(1.0), JQuery, jqplot
+    - Languages : Java/JEE(JSP, servlet, EJB,...), Go, Scala, Groovy, Python, SQL, HTML, Javascript, JSON, YAML, XML/XSLT, BPMN, C/C++, Lisp, Prolog
+    - Produits : Eclipse, Intalio BPMS, Intalio Designer, Liferay Portal, Grails, Datastage
+    - SGBD : MySQL, PostgreSQL, Oracle
     - Serveur Web : Tomcat
     - Serveur d'application : JBoss
-    - Systèmes d'exploitation : "Windows, Linux, MacOS"
-    - Méthodes : "SCRUM, TDD"
-    - Normes : "SAML 2.0 & 1.1"
+    - Systèmes d'exploitation : Windows, Linux, MacOS
+    - Méthodes : SCRUM, TDD
+    - Normes : SAML 2.0 & 1.1
 missions :
-    - {organization : Norsys, startDate : 31/03/2014, endDate : 04/04/2014, duration : 5 jours, projectSize : 5 personnes, description : L'application pass in est un portail pour gérer une flotte de passe magnétique et les autorisations associées., details : <p>Mise en place de Web content pour la partie editorial du portail</p><p>Intégration de l'agent DACS à Liferay pour l'authentification SAML (hook d'autologin)</p><p>Utilisation de liste de donnée dynamique et de custom attribute pour stocker des données métiers et les exploiter dans le portail</p>, techEnv : "Liferay 6.2, Dictao, SAML, Maven, Spring portlet MVC"}
+    - organization : Norsys
+      startDate : 31/03/2014
+      endDate : 04/04/2014
+      duration : 5 jours
+      projectSize : 5 personnes
+      description : L'application pass in est un portail pour gérer une flotte de passe magnétique et les autorisations associées.
+      details : <p>Mise en place de Web content pour la partie editorial du portail</p><p>Intégration de l'agent DACS à Liferay pour l'authentification SAML (hook d'autologin)</p><p>Utilisation de liste de donnée dynamique et de custom attribute pour stocker des données métiers et les exploiter dans le portail</p>
+      techEnv : Liferay 6.2, Dictao, SAML, Maven, Spring portlet MVC
 diploma :
     - Janvier 2008 : SCJP Java 5 (90%)
     - 2007 : Diplome d'ingénieur ENSEIRB, filière Informatique, option Génie Logiciel
     - 2002 : Baccalauréat Scientifique avec mention, option Sciences de l'ingénieur, spécialité mathématiques
 training :
-    - {dates : Décembre 2009, title : Développement Liferay 5, duration : 3 jours}
-    - {dates : 18/02/2011, title : Développement Android, duration : 1 jour}
+    - dates : 18/02/2011
+      title : Développement Android
+      duration : 1 jour
+    - dates : Décembre 2009
+      title : Développement Liferay 5
+      duration : 3 jours
+    - dates : Février 2007
+      title : Formation Excilys Java/JEE (Java/JEE, Hibernate, Spring, Log4j, Maven, Struts)
+      duration : 1 mois
 language :
     - Anglais : moyen
