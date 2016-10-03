@@ -20,21 +20,23 @@
         </ul>
         <h2>Description des missions</h2>
         {{range .missions}}
-            <h3>{{.organization}} <span>{{.startDate}} - {{.endDate}}</span></h3>
-            <ul>
-                <li>
-                    Projet : <span>{{.description}}</span>
-                </li>
-                <li>
-                    Mission : <span>{{.details}}</span>
-                </li>
-                <li>
-                    Equipe : <span>{{.projectSize}}</span>
-                </li>
-                <li>
-                    Technologies et outils : <span>{{.techEnv}}</span>
-                </li>
-            </ul>
+            {{if eq .show "true"}}
+                <h3>{{.organization}} <span>{{.startDate}} - {{.endDate}}</span></h3>
+                <ul>
+                    <li>
+                        Projet : <span>{{.description}}</span>
+                    </li>
+                    <li>
+                        Mission : <span>{{.details}}</span>
+                    </li>
+                    <li>
+                        Equipe : <span>{{.projectSize}}</span>
+                    </li>
+                    <li>
+                        Technologies et outils : <span>{{.techEnv}}</span>
+                    </li>
+                </ul>
+            {{end}}
         {{end}}
         <h2>Diplômes et formations</h2>
         <h3>Diplômes</h3>
