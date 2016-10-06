@@ -21,17 +21,21 @@
         <h2>Description des missions</h2>
         {{range .missions}}
             {{if eq .show "true"}}
-                <h3>{{.organization}} <span>{{.startDate}} - {{.endDate}}</span></h3>
+                <h3>{{.organization}} <span>{{.startDate}} - {{.endDate}} ({{.duration}})</span></h3>
                 <ul>
+                    {{if .description}}
+                        <li>
+                            Projet : <span>{{.description}}</span>
+                        </li>
+                    {{end}}
                     <li>
-                        Projet : <span>{{.description}}</span>
+                        Missions : <span>{{.details}}</span>
                     </li>
-                    <li>
-                        Mission : <span>{{.details}}</span>
-                    </li>
-                    <li>
-                        Equipe : <span>{{.projectSize}}</span>
-                    </li>
+                    {{if .projectSize}}
+                        <li>
+                            Equipe : <span>{{.projectSize}}</span>
+                        </li>
+                    {{end}}
                     <li>
                         Technologies et outils : <span>{{.techEnv}}</span>
                     </li>

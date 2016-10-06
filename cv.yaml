@@ -6,9 +6,10 @@ speciality : Expert JEE LIFERAY
 experience : 9 ans
 resume : bla bla
 techSkill :
-    - Composants : Spring, Struts, GWT, Android, Google Maps Javascript API, Velocity, Hibernate, Dom4J, Terracotta, JUnit, Log4j, Slf4J, Git, Mercurial, Subversion, Maven, Ant, Lucene, Selenium, Fluentlenium, Google Guava, Angular(1.0), JQuery, jqplot
-    - Languages : Java/JEE(JSP, servlet, EJB,...), Go, Scala, Groovy, Python, SQL, HTML, Javascript, JSON, YAML, XML/XSLT, BPMN, C/C++, Lisp, Prolog
-    - Produits : Eclipse, Intalio BPMS, Intalio Designer, Liferay Portal, Grails, Datastage
+    - Composants : Spring, Struts, Angular(1.0), JQuery, jqplot, Android, GWT, Freemarker, Velocity, Hibernate, Dom4J, Terracotta, JUnit, Log4j, Slf4J, Git, Mercurial, Subversion, Maven, Ant, Lucene, Selenium, Fluentlenium, Google Guava, Google Maps Javascript API
+    - Languages : Java/JEE(JSP, servlet, EJB,...), Go, Groovy, Python, HTML, Javascript, SQL, JSON, YAML, XML/XSLT, C/C++, Lisp, Prolog
+    - Modélisation : UML, Design Pattern
+    - Produits : Eclipse, Liferay Portal, Datastage
     - SGBD : MySQL, PostgreSQL, Oracle
     - Serveur Web : Tomcat
     - Serveur d'application : JBoss
@@ -16,15 +17,105 @@ techSkill :
     - Méthodes : SCRUM, TDD
     - Normes : SAML 2.0 & 1.1
 missions :
+    - organization : EDF
+      startDate : 26/01/2011
+      endDate : à ce jour
+      duration : 5 ans et 8 mois
+      projectSize : 15-30 Personnes
+      description : Intervention au sein de la cellule de développement iteratif (utilisant la méthodologie Scrum) sur différents projets basés sur Liferay :&nbsp;Pepsi (catalogue de solution technique), Groupnet (plateforme de travail colaboratif), Veol (Réseau social d'entreprise), SI Mediation (workflow de suivi des demandes adressées au médiateur) et Swan (plateforme de commande de matériel).
+      details : Modification du workflow Kaleo pour le support de l'internationalisation dans les mails expédiés par l'utilisation de template Velocity.<br/>Ajout d'un mécanisme d'archivage à la Document Library de Liferay (Surcharge de service pour la prise en compte d'un custom attribut) avec un job mettant à jour le statut des fichiers<br/>Mise en place d'une structure et d'un template pour gérer des contenu web de type "Article" (image, contenu, documents, liens internes, liens externes, contacts, rendez-vous)<br/>Développement d'une portlet de profil avec ajout automatique ou demande d'ajout automatique à des communautés et organisations<br/>Développement d'une portlet listant les communautés de l'utilisateur, la liste pouvant être réagencé<br/>Développement d'un job permettant de consolider des statistiques sur l'utilisation du portail<br/>Développement d'une portlet permettant de s'abonner au contenu d'une communauté<br/>Migration de portlet utilisant le service builder de la version 6 à la version 6.1<br/>Développement d'une portlet "tableau de bord" basée sur une recherche lucène (affichage selon les rôles de l'utilisateur) avec critère de filtrage et de tri<br/>Développement d'un portlet de recherche avancée de saisine basé sur une recherche lucène<br/>Développement d'un test Selenium reproduisant le comportement d'un scénario de recette<br/>Développement d'écran de statistique (pyramide des saisines par délai, saisines par CDM par mois, saisine par CDM par an, etc...)<br/>Migration de portlet du socle 6.1 en 6.2
+      techEnv : Liferay Portal 6, 6.1 et 6.2, Kaleo Workflow, Freemarker, Velocity, Ant, Apache Tomcat, JBoss, HSQL, Oracle, JQuery, jqplot, Lucene, Scrum, Selenium, Google Guava, Maven, Fluentlenium
+      show : true
     - organization : Norsys
       startDate : 31/03/2014
       endDate : 04/04/2014
       duration : 5 jours
       projectSize : 5 personnes
       description : L'application pass in est un portail pour gérer une flotte de passe magnétique et les autorisations associées.
-      details : <p>Mise en place de Web content pour la partie editorial du portail</p><p>Intégration de l'agent DACS à Liferay pour l'authentification SAML (hook d'autologin)</p><p>Utilisation de liste de donnée dynamique et de custom attribute pour stocker des données métiers et les exploiter dans le portail</p>
+      details : Mise en place de Web content pour la partie editorial du portail<br/>Intégration de l'agent DACS à Liferay pour l'authentification SAML (hook d'autologin)<br/>Utilisation de liste de donnée dynamique et de custom attribute pour stocker des données métiers et les exploiter dans le portail
       techEnv : Liferay 6.2, Dictao, SAML, Maven, Spring portlet MVC
       show : true
+    - organization : SwissLife
+      startDate : 24/03/2011
+      endDate : 06/04/2011
+      duration : 4 jours
+      projectSize :
+      description :
+      details : Audit de la CASification d'une application ayant été portée dans Liferay<br/>Etude de faisabilité de la CASification de EZ Publish
+      techEnv : Liferay Portal, CAS, Maven, EZ Publish, PHP
+      show : true
+    - organization : Social Computing
+      startDate : 25/10/2010
+      endDate : 25/01/2011
+      duration : 3 mois
+      projectSize : 6 personnes
+      description : Le portail Centre Ressources est destiné aux particuliers-employeurs et à leurs employés, il fournit notamment un module pour la gestion d'offres et de demandes d'emploi.<br/> Les développements du portail ont été basés sur Liferay, cependant la FEPEM (Fédération des Particuliers-Employeurs) disposant déjà d'une fédération d'identité centralisé sur un fourniseur d'identité SAML 2.0, le projet a pris en charge l'intégration de SAML 2.0 dans Liferay, de même dans l'objectif de proposer des services complémentaires pour des grandes entreprises, dont certaines utilisant des fédérations d'identité SAML 1.1, il a été décidé d'intégrer aussi SAML 1.1 dans Liferay. Le moteur de recherche SolR a été choisi pour mettre en place les recherches au sein du site.
+      details : Intégration de SAML 2.0 et de SAML 1.1 dans Liferay en tant que fournisseur de service (seul développeur) :&nbsp;Utilisation de Dom4J et de l'API Java XML Digital Signature pour mettre en place l'authentification unique (web browser SSO profile, utilisation du binding redirect), la deconnexion unique (single logout profile, utilisation du binding redirect) et la génération des métadonnées SAML 2.0, puis modification pour la gestion de l'authentification unique SAML 1.1.<br/>Développement sur la portlet d'offres et de demandes d'emploi (3 développeurs). J'ai effectué les tâches suivantes :&nbsp;mise en place de recherches simples avec indication de distance et affichage des résultats sur une carte, migration de la version 2 à la version 3 de l'API Javascript de Google Maps, numérotation et coloration des marqueurs sur la carte, mise en place d'un formulaire de contact avec envoi de mail.<br/>Modification du workflow Kaleo single approver pour mettre en place un template Velocity pour les mails avec notamment le lien vers la ressource à approuver.
+      techEnv : Liferay Portal 6, SAML, Google Maps API, Google Chart, Velocity, Kaleo Workflow, Dom4J, Java XML Digital Signature API, Apache Tomcat, MySQL, SolR, XML, JSON
+      show : true
+    - organization : Altendis
+      startDate : 13/10/2010
+      endDate : 15/10/2010
+      duration : 3 jours
+      projectSize : 8 élèves
+      description : Formation développeur Liferay Portal 6
+      details : Co formateur en charge des exercices
+      techEnv : Liferay Portal 6, MySQL, Liferay Developer Studio (Eclipse)
+      show : true
+    - organization : Altendis
+      startDate : 01/01/2009
+      endDate : 01/10/2009
+      duration : 10 jours
+      projectSize : 5 personnes
+      description : Rédaction d'un cours sur le Business Process Management.
+      details : Conception des exercices sur Intalio Designer et Intalio BPMS. Participation à la rédaction de chapitres. Le projet s'est organisé à l'aide de la méthode Scrum.
+      techEnv : BPMN, Intalio BPMS, Intalio Designer, Scrum
+      show : true
+    - organization : Generali
+      startDate : 27/12/2007
+      endDate : 30/09/2010
+      duration : 2 ans et 9 mois
+      projectSize : ~20 personnes
+      description : Filip est une application JEE permettant la création de devis et la souscription de contrat d'assurance de différents domaines :&nbsp;risques agricoles, risques industriels, responsabilité civile, flottes automobile... Chaque type de produit d'assurance est doté d'écrans spécifiques pour saisir les données des objets de risques correspondants.<br/>L'application dispose d'un framework développé en interne pour la gestion des contrôles de surface, d'un générateur de code pour les objets métiers qui sont gérés avec des états (contrat, objet de risque, ...) et d'un moteur de règles pour les contrôles métiers avec gestion des habilitations qui pilote le commit ou le rollback sur les objets métiers, d'un générateur pour les fichiers Hibernate et les classes associées. La persistance des contrats est effectuée par le mainframe CICS dans des bases DB2 et DLI, le mainframe est accédé en J2C par l'intermédiaire d'une passerelle CTG. Les données de références sont stockées dans une base Spitab, avec un traitement Datastage journalier de transfert dans une base Oracle, c'est cette base qui est appelé par Filip avec Hibernate.
+      details : Projet PoC déconnecté :&nbsp;Création d'un Proof of Concept à partir de Filip n'accédant pas aux données CICS, ni aux données Oracle, pour une utilisation sur un portable sans internet. (seul développeur)<br/>Evolution pour le produit Responsabilité Civile (2 développeurs :&nbsp;un senior et moi)<br/>Etudes pour l'utilisation de Slf4J<br/>En charge de la correction des anomalies de production pendant plusieurs période de 1 mois (réponse à l'assistance, aides aux utilisateurs, corrections des bugs, mises en place et livraisons de patchs)<br/>Migration de l'accès CICS de EAB vers J2C<br/>Evolution transverse :&nbsp;mise en place d'un "Chemin de fer" cliquable pour une meilleure navigation. (seul développeur)<br/>Projet Immeuble :&nbsp;Ajout d'un nouveau produit (2 développeurs :&nbsp;un senior et moi). J'ai effectué les tâches suivantes :&nbsp;Développement du module de tarification et du module d'édition (création d'un flux XML Doc1v5), création de table SQL, de jobs Datastage.<br/>Projet Construction :&nbsp;Ajout d'un nouveau produit avec un workflow (3 développeurs :&nbsp;un senior, un junior workflow et moi). J'ai effectué les tâches suivantes :&nbsp;Création des Pages JSP, jobs Datastage, table SQL et développement du module d'édition.<br/>Evolution pour le produit Responsabilité Civile :&nbsp;Migration du module d'édition des attestations de Doc1 v3 à v5<br/>Prise en charge et accompagnement des nouveaux arrivants sur le projet Filip<br/>Evolution pour le produit Multirisque agricole :&nbsp;ajout pour la gestion de nouvelles garanties (réécriture du moteur de tarification, ajout de régles métiers, de table SQL, modifications des pages JSP) (2 développeurs :&nbsp;un junior et moi)<br/>Evolution transverse :&nbsp;Mise en place de l'authentification Gef2 (appel d'un webservice) et d'un accès via jeton depuis d'autres application du SI Generali<br/>Projet ART :&nbsp;projet de refonte de la gestion de la taxation au sein du SI Générali, consulté en tant qu'expert Filip au sujet de la refonte des modules de tarification des différents produit.<br/>Projet EDI Courtage :&nbsp;Développement d'un web service "passe-plat" avec gestion de la sécurité (MTOM, cryptage et signature).<br/>Projet Aléas climatiques :&nbsp;Ajout d'un nouveau produit (2 développeurs :&nbsp;un junior et moi). J'ai effectué les tâches suivantes :&nbsp;Créations des pages JSP, des régles métiers, des tables SQL, des jobs Datastage, développement du module de tarification et de la gestion des contrats groupes (jusqu'à 1000 Exploitation agricole, avec problématique de gestion mémoire).
+      techEnv : Struts, Spring, Hibernate, JBoss, Websphere, EJB 2, Ajax, EAB, J2C, CTG, CICS, Spitab, Webservice, XML, Terracotta, DB2, DLI, Oracle, Sql, Datastage, Doc1 v3 & v5, Log4J, Slf4J, JUnit, Selenium, Ant, Maven, XFire
+      show : true
+    - organization : Xerox
+      startDate : 08/03/2007
+      endDate : 30/11/2007
+      duration : 9 mois
+      projectSize :
+      description : Le projet de suivi de production permet de visualiser l'état des courriers jusqu'à leurs envois, la partie de suivi de stock permet de vérifier les stocks restants (enveloppes, papiers, etc) avec affichage lorsque la quantité est en dessous d'un seuil d'alerte. <br/>Le projet de gestion de production, permet le suivi et le déclenchement des étapes pour la numérisation et l'archivage des documents, avec gestion du groupement par lots et par bacs.
+      details : Travail sur 4 projets :<br/>Développement d'un portail de suivi de production et de suivi des stocks avec fonctionnalités de consultations et de filtrages. Ainsi que fonctionnalités d'import dans la base de données depuis des fichiers csv. (seul développeur, une dizaine de pages-écrans) <br/>Développement d'un module de réceptions d'archive avec validation, dézippage et transfert à un serveur d'archivage. (seul développeur) <br/>Corrections de bugs et ajout de fonctionnalités sur un portail de gestion de production (3 développeurs, 1 chef de projets, ~50 pages-écrans) <br/>Développement sur un module de réceptions de fax avec changement de résolutions, enregistrement dans la base de données avec simulation de passage de transitions.(2 développeurs)
+      techEnv : Tomcat, Struts, Hibernate, PostgreSQL, Log4J
+      show : true
+    - organization : Bull
+      startDate : 30/10/2006
+      endDate : 28/01/2007
+      duration : 3 mois
+      projectSize : 6 personnes
+      description : Portage de JOnASAdmin, la console graphique d'administration du serveur d'application JOnAS, sur le portail Exo platform. La version initiale de JOnASAdmin étant basée sur Struts (environnement de servlets), et la version finale devant fonctionner avec Exo platform (conteneur de portlets) et utiliser le framework JSF. La migration a été effectuée en deux étapes, du portail Struts en un portail JSF, puis de l'environnement utilisant des servlets à celui utilisant des portlets.
+      details : Membre de l'équipe en charge de la migration du portail Struts en portail JSF.
+      techEnv : JSF, Struts, Jonas, Exo platform, Portlet
+      show : false
+    - organization : Twenga
+      startDate : 03/07/2006
+      endDate : 29/09/2006
+      duration : 3 mois
+      projectSize :
+      description : Dans le cadre du site Twenga(guide d'achats en ligne avec comparaisons de prix, avis de consommateurs, et articles de professionnels), un logiciel était utilisé pour parcourir des sites(sites marchands, ou sites avec tests de matériels), et en extraire les données pertinentes à l'aide de scripts XSLT.
+      details : Développement de scripts XSLT d'extractions de données depuis les pages internet.<br/>Études de faisabilité d'une amélioration permettant le support du Javascript lors du parcours des sites(basée sur SpiderMonkey, le moteur de Javascript de Firefox).
+      techEnv : XML/XSLT, C/C++
+      show : false
+    - organization : Labri
+      startDate : 10/01/2006
+      endDate : 01/04/2006
+      duration : 4 mois
+      projectSize : 8 personnes, un responsable technique
+      description : Dans le cadre d'un projet d'ordonanceur de threads, utilisant un système de regroupement par "bulles", nous avons développé une interface de visualisation pour permettre aux utilisateurs de mettre en place la structure de threads et de bulles, puis de lancer l'exécution de l'ordonanceur sur cette structure, ensuite la trace de l'exécution était lu pour être finalement affichée sous la forme d'une animation permettant de visualiser l'affectation des threads sur les différents processeurs.
+      details : Dans la partie édition :&nbsp;Bibliothèque de fonctions pour la manipulation de la structure arborescente de threads et de bulles (creation de threads ou de bulles, ajout d'un thread à une bulle, récupérations d'un thread ou d'une bulle à partir des coordonnées cliquées à la souris, etc...)
+      techEnv : C, GTK, OpenGL
+      show : false
 diploma :
     - Janvier 2008 : SCJP Java 5 (90%)
     - 2007 : Diplome d'ingénieur ENSEIRB, filière Informatique, option Génie Logiciel
